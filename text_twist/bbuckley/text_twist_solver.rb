@@ -7,7 +7,7 @@ class TextTwistSolver
   
   def results_for(word) 
     # intersection of sets: a word's scrabble and the dictionary 
-    @dictionary & word.scrabble(3..word.length)
+    @dictionary & word.scrabble( 3..word.length )
   end   
 end
 
